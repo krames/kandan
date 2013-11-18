@@ -49,6 +49,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'debugger'
   gem 'capistrano'
+  gem 'capistrano-bundler'
 end
 
 group :test do
