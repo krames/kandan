@@ -1,13 +1,15 @@
 set :application, 'kanda'
 set :repo_url, 'git@github.com:krames/kandan.git'
+set :stage, :production
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 set :deploy_to, '/var/www/vhosts/example.com'
 # set :scm, :git
+set :user, 'root'
 
 # set :format, :pretty
-# set :log_level, :debug
+set :log_level, :debug
 # set :pty, true
 
 # set :linked_files, %w{config/database.yml}
