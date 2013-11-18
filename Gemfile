@@ -50,6 +50,7 @@ group :development do
   gem 'debugger'
   gem 'capistrano'
   gem 'capistrano-bundler'
+  gem 'capistrano-rvm'
 end
 
 group :test do

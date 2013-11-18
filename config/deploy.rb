@@ -7,6 +7,7 @@ set :stage, :production
 set :deploy_to, '/var/www/vhosts/example.com'
 # set :scm, :git
 set :user, 'root'
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 # set :format, :pretty
 set :log_level, :debug
