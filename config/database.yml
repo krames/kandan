@@ -34,6 +34,8 @@ production:
   encoding: utf8
   database: rails_db
   pool: 5
-  username: root
-  password: pmkyav8P
+  # username: root
+  # password: pmkyav8P
+  username: rails
+  password: Knadan
   host: 10.183.7.94
