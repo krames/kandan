@@ -2,6 +2,7 @@ In order to get this to work with automated deployments I had to tweak the follo
 
 * changed '/etc/apache2/sites-enabled/example.com.conf' to point to capistrano deployment
 * precompile assets on machine (not sure why it didnt do this)
+* database.yml file was wrong
 
 On the database server: 
 
